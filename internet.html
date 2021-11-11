@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agila utvecklingsmetoder HTML">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Systemutvecklare">
+    <meta name="author" content="Jespher Olausson">
+    <title>Internet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylet.css">
+</head>
+
+<main>
+
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button title="Alternative navbar" type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#menuicon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html"><img class="logo" alt="Logotyp" src="logot.png"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="menuicon">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="klienttekniker.html">Klienttekniker</a></li>
+                            <li><a href="projektmetodik.html">Projektmetodik</a></li>
+                            <li class="active"><a href="internet.html">Internet</a></li>
+                            <li><a href="tillgänglighet.html">Tillgänglighet</a></li>
+                            <li><a href="analys.html">Analys</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 banner-info">
+                        <h1 id="int1">Internet</h1><br>
+                        <p id="int2" class="big-text2">Klient-server-modellen</p>
+                        <p>Klient-server är en IT-arkitektur som kännetecknas av att olika programvarukomponenter
+                            kommunicerar via ett tydligt gränssnitt alternativt ett kommunikationsprotokoll där den ena
+                            komponenten
+                            uttryckligen begär tjänster av den andra.
+                            Klientserverlösningar är speciellt vanliga då program skall kommunicera över datornätverk,
+                            men används även för att hålla virus borta då detta är ett säkrare alternativ</p>
+                        </br>
+                        <p id="int3" class="big-text2">Internetkommunikation</p>
+                        <p>Vi behöver IP-adresser för att kunna identifiera varje dator på nätet och för att e-post och
+                            annan datatrafik ska hitta rätt.
+                            Domännamnen har kommit till för att vi lättare ska komma ihåg adressen, IP-adressens alla
+                            siffror kan vara svåra att memorera.
+                            I grund och botten är internet ett jättelikt nätverk som kopplar samman en enorm mängd
+                            datorer
+                            så att de kan kommunicera med varandra.
+                            För att denna kommunikation ska fungera så måste datorerna använda samma uppsättning regler
+                            när
+                            de skickar och tar emot information.
+                            Dessa regelverk kallas protokoll och det mest grundläggande protokollet som används på
+                            internet
+                            kallas internetprotokollet och förkortas IP.</br></br>
+                            För att visuellt illustrera exakt hur internet fungerar på ett lite mer lättförståeligt språk
+                            så rekommenderar jag alla att titta på följande Youtube-klipp:
+                            </p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe aria-label="Videoklipp" class="embed-responsive-item" title="Video om internet" src="https://www.youtube.com/embed/s-RGkHpC3hM"></iframe>
+                            </div>
+                        </br>
+                        <p id="int4" class="big-text2">Protokoll</p>
+                        <p>Ett protokoll är ett slags regelverk som används för att två datorer ska kunna förstå
+                            varandra på
+                            samma premisser.
+                            Att de pratar med varandra på samma språk.
+                            IP-protokollet ser alltså till att internets datorer vet hur de ska adressera varandra och
+                            TCP-protokollet ser till att paketen kommer fram.
+                            Internetprotokollet (IP) standardiserar hur datorer kommunicerar med varandra. Likt
+                            principen
+                            med telefonnummer som går till en specifik telefon gör Internetprotokollet till exempel att
+                            alla
+                            internetanslutna datorer en egen IP-adress.
+                            De flesta IP-adresser bygger på protokollet IPv4, Internet Protocol version 4 och uttrycks
+                            som
+                            decimala tal grupperade i fyra grupper åtskilda av punkter.
+                            Denna standard har också kompletterats med protokollet IPv6, Internet Protocol version 6,
+                            som
+                            skapats för att antalet möjliga adresser genom IPv4 inte kommer att räcka till.
+                            IPv6-adresser uttrycks som decimala tal grupperade i åtta grupper om fyra tecken.
+                            IPv6-adresser
+                            är 128 bitar långa medan IPv4-adresser är 32 bitar långa.</p>
+                        </br>
+                        <p id="int5" class="big-text2">HTTP / HTTPS</p>
+                        <p>HTTP/HTTPS står för HyperText Transfer Protocol, s:et i HTTPS står för Secure och är ett
+                            protokoll som används för kommunikation av webbsidor över internet mellan webbläsare och
+                            servrar etc.
+                            Skillnaden mellan HTTP och HTTPS är att HTTPS är krypterad och då säkrare att använda när
+                            det kommer till känslig information.
+                            En hemsida som enbart använder HTTP ger en mycket mindre säker uppkoppling och riskerna för att kunddata nås av utomstående ökar drastiskt.
+                            Det finns även andra fördelar utöver själva säkerheten med HTTPS som exeplevis att
+                            sidor med HTTPS värderas högre av Google, så det är troligt att de kan få en bättre position i sökresultaten 
+                            och generera mer organisk trafik till din sida.</p>
+                        </br>
+                        <p id="int6" class="big-text2">FTP / FTPS</p>
+                        <p>FTP/FTPS står för File Transfer Protocol och även här står s:et i FTPS för Secure. Det är ett
+                            protokoll för filöverföring när man t.ex. laddar upp en hemsida.
+                            Skillnaden mellan FTP och FTPS är precis som HTTP och HTTPS, FTPS en säkrare variant av FTP
+                            som är krypterad. Krypteringen av kommunikationskanal och filöverföring sker oberoende av varandra när man använder sig av ftps. 
+                            Det har fördelen att protokollet kan användas flexibelt när det gäller vad som ska krypteras i själva dataöverföringen.</p>
+                        <a class="btn btn-first" href="internet.html">Internet</a>
+                        <a class="btn btn-second" href="index.html">Hem</a>
+                    </div>
+                    <div class="col-sm-4 banner-image">
+                        <img src="image.png" class="img-responsive" alt="Designbild">
+                        <img src="image.png" class="img-responsive" alt="Designbild">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
+</main>
+
+</html>

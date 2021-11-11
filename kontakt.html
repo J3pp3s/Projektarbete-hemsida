@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Agila utvecklingsmetoder HTML">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Systemutvecklare">
+  <meta name="author" content="Jespher Olausson">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylet.css">
+  <link rel="javascript" href="javascripts.js">
+</head>
+
+<main>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button title="Alternative navbar" type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#menuicon">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img class="logo" alt="Logotyp" src="logot.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="menuicon">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="klienttekniker.html">Klienttekniker</a></li>
+              <li><a href="projektmetodik.html">Projektmetodik</a></li>
+              <li><a href="internet.html">Internet</a></li>
+              <li><a href="tillgänglighet.html">Tillgänglighet</a></li>
+              <li><a href="analys.html">Analys</a></li>
+              <li class="active"><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 banner-info">
+            <div style="text-align:center">
+              <i>
+                <p>Jespher Olausson<br>
+                  Björnbärsvägen 52, Sturefors<br>
+                  jespher2010@live.com</p>
+              </i>
+              <a href="https://github.com/J3pp3s/"><img alt="Githubkonto" src="giticon.png" width="100"
+                  height="100"></a>
+              <br>
+              <br>
+              <h1>Kontakta mig</h1>
+              <p>Har du några funderingar? Skicka gärna in din fråga:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="contact.png" alt="Kontaktbild" style="width:80%">
+              </div>
+              <div class="column">
+                <form action="tack.html" onsubmit="submitForm()">
+                  <label for="name">Namn</label>
+                  <input type="text" id="name" name="yourname" placeholder="Fullständigt namn.." required>
+                  <label for="mail">E-mail</label>
+                  <input type="text" id="mail" name="yourmail" placeholder="@.." required>
+                  <label for="country">Land</label>
+                  <select id="country" name="country">
+                    <option value="Sverige">Sverige</option>
+                    <option value="Norge">Norge</option>
+                    <option value="Danmark">Danmark</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Island">Island</option>
+                    <option value="Grönland">Grönland</option>
+                  </select>
+                  <label for="subject">Ämne</label>
+                  <textarea id="subject" name="subject" placeholder="Skriv något.." style="height:170px" required></textarea>
+                  <input id="askMe" type="submit" value="Skicka">
+                </form>
+                <script src="javascripts.js"></script>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <a class="btn btn-first" href="Kontakt.html">Kontakt</a>
+            <a class="btn btn-second" href="index.html">Hem</a>
+          </div>
+          <div class="col-sm-4 banner-image">
+            <img src="image.png" class="img-responsive" alt="Designbild">
+            <img src="image.png" class="img-responsive" alt="Designbild">
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</main>
+
+</html>
