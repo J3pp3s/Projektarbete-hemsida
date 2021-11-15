@@ -67,15 +67,15 @@ p2 {
     font-size: 26px;
     margin: 20px 0;
     color: darkgreen;
-    text-shadow: 2px 2px 3px rgba(150,150,150,0.72);
+    text-shadow: -1px 1px 4px rgba(104,104,104,0.67);
 }
 /* Användas som färgsättning för underrubrikerna på varje sida */
 .big-text2
 {
-    font-size: 22px;
+    font-size: 24px;
     margin: 10px 0;
     color: darkgreen;
-    text-shadow: 2px 2px 3px rgba(150,150,150,0.72);
+    text-shadow: -1px 1px 4px rgba(104,104,104,0.67);
 }
 /* Skapar gröna menyknappar som läggs längst ned på sidan. Anger utformingen på de */
 a.btn
@@ -169,5 +169,12 @@ a:active {
     color: white;
 }
 h1 {
-    text-shadow: 2px 2px 3px rgba(150,150,150,0.72);
+    text-shadow: -3px 3px 5px #686868;
+    color: #3491e2;
+    letter-spacing: .2rem;
+    font-weight: 700;
+}
+.img-responsive {
+    margin: 0 auto;
+    height: auto;
 }
