@@ -3,3 +3,9 @@
 function submitForm(){
     alert("Skickar mail!");
 }
+
+$(document).ready(function(){
+    $("#fadeButton").click(function(){
+    $("#fadeList").fadeIn(2000);
+    });
+});
