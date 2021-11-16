@@ -55,11 +55,14 @@ p2 {
     font-size: 18px;
     color: darkgreen;
 }
-/* Får h1 att minska i storlek på mobiler och liknande enheter */
+/* Får h1 samt h2 att minska i storlek på mobiler och liknande enheter */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 26px;
-    }   
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
 }
 /* Användas som färgsättning för underrubrik på innehållsförteckning */
 .big-text
